@@ -116,8 +116,6 @@ pip install -r requirements.txt
 jupyter notebook pulsar_net.ipynb
 ```
 
-The dataset is not included in the repository.
-
 ## Project Files
 
 ```text
