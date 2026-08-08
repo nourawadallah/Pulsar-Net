@@ -103,7 +103,7 @@ The notebook also includes confusion matrices, classification reports, and preci
 
 ---
 
-## Try It Yourself
+## How to Run
 
 Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/charitarth/pulsar-dataset-htru2) and place it in the project directory.
 
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 jupyter notebook pulsar_net.ipynb
 ```
 
-## Project Files
+## Files
 
 ```text
 pulsar-net/
