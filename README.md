@@ -110,7 +110,7 @@ Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/c
 Then:
 
 ```bash
-git clone https://github.com/nnourue/pulsar-net.git
+git clone https://github.com/nourawadallah/pulsar-net.git
 cd pulsar-net
 pip install -r requirements.txt
 jupyter notebook pulsar_net.ipynb
