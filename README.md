@@ -127,5 +127,3 @@ pulsar-net/
 ├── requirements.txt
 └── README.md
 ```
-
-The saved model contains the trained XGBoost classifier, selected classification threshold, and feature list.
