@@ -1,8 +1,8 @@
 # Pulsar-Net
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-MIT-6B7280?style=flat)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-4F46E5)
 
 Pulsars are rapidly rotating neutron stars that emit beams of radio waves. Radio surveys produce thousands of pulsar candidates, and automatically distinguishing real pulsars from radio-frequency interference (RFI) and noise can help make these surveys easier to analyse.
 
