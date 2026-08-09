@@ -72,6 +72,18 @@ SHAP analysis provides a more detailed look at how these features influence indi
 
 ---
 
+## Files
+
+```text
+pulsar-net/
+├── pulsar_net.ipynb
+├── pulsar_xgb_model.pkl
+├── requirements.txt
+└── README.md
+```
+
+---
+
 ## How to Run
 
 Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/charitarth/pulsar-dataset-htru2) and place it in the project directory.
@@ -83,14 +95,4 @@ git clone https://github.com/nourawadallah/pulsar-net.git
 cd pulsar-net
 pip install -r requirements.txt
 jupyter notebook pulsar_net.ipynb
-```
-
-## Files
-
-```text
-pulsar-net/
-├── pulsar_net.ipynb
-├── pulsar_xgb_model.pkl
-├── requirements.txt
-└── README.md
 ```
