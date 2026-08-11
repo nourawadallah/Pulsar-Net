@@ -7,3 +7,4 @@ xgboost
 shap
 joblib
 jupyter
+streamlit
