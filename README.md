@@ -8,6 +8,8 @@ Pulsars are rapidly rotating neutron stars that emit beams of radio waves. Radio
 
 Pulsar-Net is a machine learning pipeline for classifying **pulsar candidates as real pulsars or non-pulsars** using statistical features extracted from their radio signals. I used the HTRU2 dataset, engineered additional features around signal shape and characteristics, and compared Logistic Regression with XGBoost. The final model also uses threshold optimisation and SHAP analysis to examine its predictions.
 
+**[🔭 Try the live demo](https://pulsar-net.streamlit.app/)**
+
 ---
 
 ## The Data
@@ -78,6 +80,7 @@ SHAP analysis provides a more detailed look at how these features influence indi
 pulsar-net/
 ├── pulsar_net.ipynb
 ├── pulsar_xgb_model.pkl
+├── app.py
 ├── requirements.txt
 └── README.md
 ```
@@ -86,13 +89,25 @@ pulsar-net/
 
 ## How to Run
 
-Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/charitarth/pulsar-dataset-htru2) and place it in the project directory.
-
-Then:
+Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/nourawadallah/pulsar-net.git
 cd pulsar-net
 pip install -r requirements.txt
+```
+
+**To try the interactive app locally:**
+
+```bash
+streamlit run app.py
+```
+This opens at `http://localhost:8501`. Or skip local setup entirely and use the **[live demo](https://pulsar-net.streamlit.app/)**.
+
+**To explore the full pipeline (data prep, feature engineering, model training, SHAP analysis):**
+
+Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/charitarth/pulsar-dataset-htru2) and place it in the project directory, then:
+
+```bash
 jupyter notebook pulsar_net.ipynb
 ```
