@@ -8,7 +8,7 @@ Pulsars are rapidly rotating neutron stars that emit beams of radio waves. Radio
 
 Pulsar-Net is a machine learning pipeline for classifying **pulsar candidates as real pulsars or non-pulsars** using statistical features extracted from their radio signals. I used the HTRU2 dataset, engineered additional features around signal shape and characteristics, and compared Logistic Regression with XGBoost. The final model also uses threshold optimisation and SHAP analysis to examine its predictions.
 
-**[🔭 Try the live demo](https://pulsar-net.streamlit.app/)**
+**[Try the live demo](https://pulsar-net.streamlit.app/)**
 
 ---
 
