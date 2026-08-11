@@ -44,14 +44,14 @@ Rather than assuming that 0.5 was the best probability threshold, I searched for
 
 The two models performed similarly during cross-validation:
 
-| Model               |     CV PR-AUC |
+| Model               | CV PR-AUC     |
 | ------------------- | ------------: |
 | Logistic Regression | 0.929 ± 0.012 |
 | XGBoost             | 0.928 ± 0.010 |
 
 On the held-out test set, the threshold-optimised XGBoost model achieved:
 
-| Metric    |     Score |
+| Metric    | Score     |
 | --------- | --------: |
 | Accuracy  |  **0.98** |
 | PR-AUC    | **0.934** |
