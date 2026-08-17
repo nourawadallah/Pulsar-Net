@@ -111,3 +111,9 @@ Download `HTRU_2.csv` from the [HTRU2 dataset](https://www.kaggle.com/datasets/c
 ```bash
 jupyter notebook pulsar_net.ipynb
 ```
+
+---
+
+## Tools & Libraries
+
+Python · XGBoost · scikit-learn · SHAP · pandas · NumPy · Matplotlib · Seaborn · Joblib
